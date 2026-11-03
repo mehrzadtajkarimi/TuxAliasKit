@@ -1,0 +1,7 @@
+{
+  "uuid": "tuxaliaskit@mehrzadtajkarimi.github.io",
+  "name": "TuxAliasKit",
+  "description": "Manage Bash aliases and functions, including webp_convert, from GNOME Shell preferences and use them in Bash terminals.",
+  "shell-version": ["48"],
+  "url": "https://github.com/mehrzadtajkarimi/TuxAliasKit"
+}
