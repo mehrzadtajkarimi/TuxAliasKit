@@ -64,7 +64,7 @@ webp_convert photo.png result 75
 برای ساخت بستهٔ محلی:
 
 ```bash
-gnome-extensions pack --extra-source=default-config.json --out-dir /tmp extension
+gnome-extensions pack --extra-source=default-config.json --extra-source=LICENSE --out-dir /tmp extension
 ```
 
 این بستهٔ محلی معادل انتشار عمومی نیست.
