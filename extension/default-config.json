@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "aliases": [
+    {
+      "name": "c",
+      "command": "clear",
+      "description": "پاک کردن صفحهٔ ترمینال",
+      "group": "عمومی",
+      "enabled": true
+    },
+    {
+      "name": "p",
+      "command": "pwd",
+      "description": "نمایش مسیر پوشهٔ فعلی",
+      "group": "عمومی",
+      "enabled": true
+    },
+    {
+      "name": "l",
+      "command": "ls --color=auto",
+      "description": "فهرست ساده با رنگ‌بندی فایل‌ها",
+      "group": "عمومی",
+      "enabled": true
+    },
+    {
+      "name": "ll",
+      "command": "ls -lah --color=auto",
+      "description": "فهرست کامل، شامل فایل‌های مخفی و اندازهٔ خوانا",
+      "group": "عمومی",
+      "enabled": true
+    },
+    {
+      "name": "h",
+      "command": "history",
+      "description": "نمایش تاریخچهٔ فرمان‌ها",
+      "group": "عمومی",
+      "enabled": true
+    },
+    {
+      "name": "..",
+      "command": "cd ..",
+      "description": "رفتن به پوشهٔ والد",
+      "group": "عمومی",
+      "enabled": true
+    },
+    {
+      "name": "...",
+      "command": "cd ../..",
+      "description": "رفتن دو سطح بالاتر",
+      "group": "عمومی",
+      "enabled": true
+    },
+    {
+      "name": "m",
+      "command": "mkdir -p",
+      "description": "ساخت پوشه و والدهای لازم",
+      "group": "عمومی",
+      "enabled": true
+    },
+    {
+      "name": "grep",
+      "command": "grep --color=auto",
+      "description": "رنگی‌کردن نتیجه‌های grep در ترمینال",
+      "group": "عمومی",
+      "enabled": true
+    },
+    {
+      "name": "gs",
+      "command": "git status --short --branch",
+      "description": "وضعیت فشردهٔ مخزن و شاخهٔ فعلی",
+      "group": "Git",
+      "enabled": true
+    },
+    {
+      "name": "gl",
+      "command": "git log --oneline --decorate -10",
+      "description": "ده ثبت آخر به شکل خلاصه",
+      "group": "Git",
+      "enabled": true
+    },
+    {
+      "name": "gd",
+      "command": "git diff",
+      "description": "دیدن تغییرات ثبت‌نشده",
+      "group": "Git",
+      "enabled": true
+    },
+    {
+      "name": "ga",
+      "command": "git add",
+      "description": "افزودن فایل‌ها به مرحلهٔ آماده‌سازی ثبت",
+      "group": "Git",
+      "enabled": true
+    },
+    {
+      "name": "gc",
+      "command": "git commit",
+      "description": "ثبت تغییرات آماده‌شده",
+      "group": "Git",
+      "enabled": true
+    },
+    {
+      "name": "dps",
+      "command": "docker ps",
+      "description": "نمایش کانتینرهای در حال اجرا",
+      "group": "Docker",
+      "enabled": true
+    },
+    {
+      "name": "dpa",
+      "command": "docker ps -a",
+      "description": "نمایش همهٔ کانتینرها، از جمله متوقف‌شده‌ها",
+      "group": "Docker",
+      "enabled": true
+    },
+    {
+      "name": "dimg",
+      "command": "docker image ls",
+      "description": "نمایش تصویرهای Docker",
+      "group": "Docker",
+      "enabled": true
+    },
+    {
+      "name": "dvol",
+      "command": "docker volume ls",
+      "description": "نمایش volumeها بدون حذف آن‌ها",
+      "group": "Docker",
+      "enabled": true
+    },
+    {
+      "name": "dcu",
+      "command": "docker compose up",
+      "description": "بالا آوردن سرویس‌های Compose",
+      "group": "Docker",
+      "enabled": true
+    },
+    {
+      "name": "dcud",
+      "command": "docker compose up -d",
+      "description": "بالا آوردن سرویس‌های Compose در پس‌زمینه",
+      "group": "Docker",
+      "enabled": true
+    },
+    {
+      "name": "dcd",
+      "command": "docker compose down",
+      "description": "متوقف و جمع‌کردن سرویس‌های Compose پروژهٔ فعلی",
+      "group": "Docker",
+      "enabled": true
+    },
+    {
+      "name": "pa",
+      "command": "php artisan",
+      "description": "میانبر پایه برای اجرای Artisan",
+      "group": "Laravel",
+      "enabled": true
+    },
+    {
+      "name": "pat",
+      "command": "php artisan tinker",
+      "description": "باز کردن محیط تعاملی Tinker",
+      "group": "Laravel",
+      "enabled": true
+    },
+    {
+      "name": "pamodel",
+      "command": "php artisan make:model",
+      "description": "ساخت مدل",
+      "group": "Laravel",
+      "enabled": true
+    },
+    {
+      "name": "pacontroller",
+      "command": "php artisan make:controller",
+      "description": "ساخت کنترلر",
+      "group": "Laravel",
+      "enabled": true
+    },
+    {
+      "name": "pamigration",
+      "command": "php artisan make:migration",
+      "description": "ساخت فایل مایگریشن",
+      "group": "Laravel",
+      "enabled": true
+    },
+    {
+      "name": "pamiddleware",
+      "command": "php artisan make:middleware",
+      "description": "ساخت middleware",
+      "group": "Laravel",
+      "enabled": true
+    },
+    {
+      "name": "paroutes",
+      "command": "php artisan route:list",
+      "description": "نمایش فهرست routeها",
+      "group": "Laravel",
+      "enabled": true
+    },
+    {
+      "name": "pa-migrate",
+      "command": "php artisan migrate",
+      "description": "اجرای مایگریشن‌های اجرا‌نشدهٔ پروژه",
+      "group": "Laravel",
+      "enabled": true
+    }
+  ],
+  "functions": [
+    {
+      "name": "webp_convert",
+      "description": "تبدیل تصویر به WebP با کیفیت قابل تنظیم و جلوگیری از بازنویسی خروجی.",
+      "body": "    # راهنمای کوتاه را در صورت نبود ورودی یا تعداد آرگومان نامعتبر نشان بده.\n    if [[ $# -lt 1 || $# -gt 3 ]]; then\n        echo 'روش استفاده: webp_convert <تصویر> [نام-خروجی] [کیفیت]'\n        echo 'نمونه: webp_convert photo.jpg result 85'\n        return 2\n    fi\n\n    local input=\"$1\"\n    local output=\"\"\n    local quality=80\n\n    # آرگومان دوم می‌تواند کیفیت یا نام فایل خروجی باشد.\n    if [[ $# -ge 2 ]]; then\n        if [[ \"$2\" =~ ^[0-9]+$ ]]; then\n            quality=\"$2\"\n        else\n            output=\"$2\"\n        fi\n    fi\n\n    # آرگومان سوم، در صورت وجود، کیفیت خروجی را مشخص می‌کند.\n    if [[ $# -eq 3 ]]; then\n        quality=\"$3\"\n    fi\n\n    # ورودی باید فایل موجود باشد تا ابزار روی مسیر اشتباه اجرا نشود.\n    if [[ ! -f \"$input\" ]]; then\n        echo \"خطا: فایل ورودی پیدا نشد: $input\" >&2\n        return 1\n    fi\n\n    # بررسی وابستگی پیش از اجرا، با پیام راهنمای قابل‌فهم.\n    if ! command -v cwebp >/dev/null 2>&1; then\n        echo 'خطا: cwebp نصب نیست؛ بستهٔ WebP را از مخازن توزیع خود نصب کنید.' >&2\n        return 1\n    fi\n\n    # کیفیت cwebp باید عدد صحیحی بین ۱ تا ۱۰۰ باشد.\n    if [[ ! \"$quality\" =~ ^[0-9]+$ ]] || (( quality < 1 || quality > 100 )); then\n        echo 'خطا: کیفیت باید عددی بین ۱ تا ۱۰۰ باشد.' >&2\n        return 2\n    fi\n\n    # اگر نام خروجی داده نشده باشد، نام فایل ورودی با پسوند WebP استفاده می‌شود.\n    if [[ -z \"$output\" ]]; then\n        output=\"${input%.*}.webp\"\n    fi\n\n    # پسوند خروجی را یکدست نگه می‌داریم تا نام فایل گمراه‌کننده نباشد.\n    case \"$output\" in\n        *.webp|*.WEBP) ;;\n        *) output=\"${output}.webp\" ;;\n    esac\n\n    # برای جلوگیری از بازنویسی ناخواسته، فایل موجود را دست‌نخورده می‌گذاریم.\n    if [[ -e \"$output\" ]]; then\n        echo \"خطا: فایل خروجی از قبل وجود دارد: $output\" >&2\n        return 1\n    fi\n\n    # نام فایل‌ها به صورت نقل‌قول‌شده به cwebp داده می‌شود تا فاصله‌ها درست باشند.\n    cwebp -q \"$quality\" \"$input\" -o \"$output\" || return $?\n    echo \"تصویر ساخته شد: $output\"",
+      "enabled": true
+    }
+  ]
+}
