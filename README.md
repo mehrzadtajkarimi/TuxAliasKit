@@ -57,9 +57,11 @@ webp_convert photo.png result 75
 
 ## وضعیت انتشار در GNOME Extensions
 
-مجوز پروژه `GPL-2.0-or-later` است. مخزن عمومی GitHub `mehrzadtajkarimi/TuxAliasKit` موجود است و `metadata.json` به آن اشاره می‌کند. فقط GNOME Shell 48 در فراداده ثبت شده، چون محیط توسعهٔ فعلی GNOME Shell 48.7 دارد و نسخه‌های دیگر هنوز آزمایش نشده‌اند.
+نسخهٔ ۱ در ۳ نوامبر ۲۰۲۶ برای بازبینی GNOME Extensions ارسال شد و فعلاً در وضعیت `Unreviewed` است. [صفحهٔ TuxAliasKit در GNOME Extensions](https://extensions.gnome.org/extension/11614/tuxaliaskit/).
 
-پیش از ارسال واقعی، نگه‌دارندهٔ پروژه باید بتواند کد JavaScript را توضیح دهد، اشکال‌زدایی کند و نگهداری آن را بپذیرد. بستهٔ محلی آمادهٔ بازبینی است؛ انتشار و نمایش در Browse پس از بررسی GNOME انجام می‌شود.
+مجوز پروژه `GPL-2.0-or-later` است. مخزن عمومی GitHub `mehrzadtajkarimi/TuxAliasKit` موجود است و `metadata.json` به آن اشاره می‌کند. فقط GNOME Shell 48 در فراداده ثبت شده، چون محیط توسعهٔ فعلی GNOME Shell 48.7 دارد و نسخه‌های دیگر هنوز آزمایش نشده‌اند. نمایش در Browse و نصب عمومی پس از تأیید GNOME انجام می‌شود.
+
+نگه‌دارندهٔ پروژه باید بتواند کد JavaScript را توضیح دهد، اشکال‌زدایی کند و نگهداری آن را بپذیرد.
 
 برای ساخت بستهٔ محلی:
 
